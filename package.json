@@ -1,0 +1,33 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mikhailBrann/advance-js-hw-1.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Mihail Br",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikhailBrann/advance-js-hw-1/issues"
+  },
+  "homepage": "https://github.com/mikhailBrann/advance-js-hw-1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "eslint": "^8.57.0"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
